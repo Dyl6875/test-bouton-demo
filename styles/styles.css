@@ -1,15 +1,18 @@
 html {
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 
 body {
     margin: 0;
+
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 30px;
+    background-color: red;    
 }
 
 .logo {
@@ -58,22 +61,18 @@ a {
     border-radius: 100%;
 }
 
-
-
-
-
-.zone1 {
+img {
     display: flex;
-    align-items: flex-start;
+    margin-left: auto;
+    width: 400px;
 }
-
 
 
 
 .zone1,.zone2 {
     min-height: 100vh;
     background-image: linear-gradient(red, blue);
-    
+
 }
 
 .zone1>a {
