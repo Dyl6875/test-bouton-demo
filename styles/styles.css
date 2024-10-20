@@ -87,10 +87,9 @@ img {
 }
 
 video {
-    max-width: 450px;
+    max-width: 400px;
 }
 
 .vi {
-    display: flex;
-    margin: 50px;g
+    margin-left: 50px;
 }
